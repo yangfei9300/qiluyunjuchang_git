@@ -1,0 +1,38 @@
+.yipiaotongbt{
+	width:600rpx;
+	height: 80rpx;
+	background-color: #D8B766;
+	text-align:center;
+	line-height:80rpx;
+	color: white;
+	font-size: 30rpx;
+	border-radius: 10rpx;
+	margin-top:30rpx;
+}
+.headimgd{
+	width:100rpx;
+	height: 100rpx;
+	border-radius: 500rpx;
+	margin-right:20rpx;
+}
+.updateinfo{
+	background-color: #CCCCCC;
+	border-radius: 100rpx;
+	color: white;
+	padding:5rpx 10rpx 5rpx 20rpx;
+}
+.loadinfo{
+	background-color: #ffffff;
+	border-radius: 100rpx;
+	padding:5rpx 10rpx 5rpx 20rpx;
+}
+.tijiaosn{
+	width: 208rpx;
+	height: 80rpx;
+	background: #FF8E2D;
+	opacity: 1;
+	color: white;
+	text-align: center;
+	line-height: 80rpx;
+	border-radius: 15rpx;
+}

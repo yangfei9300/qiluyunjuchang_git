@@ -1,0 +1,33 @@
+.goodicon{
+	width: 150rpx;
+	height: 150rpx;
+	border-radius: 15rpx;
+	background-color: antiquewhite;
+	margin-right: 15rpx;
+}
+.goodlistview{
+	width: 750rpx;
+	height: 750rpx;
+	background-color: white;  
+	position: fixed;
+	bottom: 0rpx;
+	border-top-left-radius: 15rpx;
+	border-top-right-radius: 15rpx;
+	
+}
+.guanbi{
+	color: blue;
+	font-size: 30rpx;
+	margin-right: 20rpx;
+}
+.quqianggouBtn{
+	background:#DE3A65;
+	width:150rpx;
+	height: 50rpx;
+	color: white;
+	font-weight: bold;
+	text-align: center;
+	line-height: 50rpx;
+	font-size: 25rpx;
+	border-radius: 10rpx;
+}

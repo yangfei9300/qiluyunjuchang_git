@@ -1,0 +1,108 @@
+page{
+	background-color: #007AFF;
+}
+.topallview{
+	background-color: #5C6BFC;
+	position: fixed;
+}
+.capsulevioew{
+	background: rgba(250,250,250,0.3);
+	position: absolute;
+	border-radius: 100rpx;
+}
+.searchtxt{
+	font-size:30rpx;
+	color: white;
+}
+.tipstxt{
+	background-color:#1AB6F1;
+	width:750rpx;
+	position: fixed;
+	font-size:25rpx;
+	padding:10rpx 20rpx;
+	color: white;
+}
+.typebigview{
+	width:690rpx;
+	background-color: #ffffff;
+	border-radius: 15rpx;
+	padding:20rpx 0rpx 10rpx 0rpx;
+}
+.typeviewwaitem{
+	width:140rpx;
+}
+.typeicon{
+	width:100rpx;
+	height: 80rpx;
+}
+.typetxts{
+	width:120rpx;
+	text-align: center;
+	color: #000000;
+	line-height:45rpx;
+	font-size: 25rpx;
+	padding:0rpx 2rpx;
+}
+
+.swper1{
+	width:690rpx;
+	height:250rpx;
+	border-radius: 20rpx;
+}
+
+/* 热聚精选 */
+.polymerization_view{
+	width:690rpx;
+	background-color: #ffffff;
+	padding:20rpx 15rpx 40rpx 15rpx;
+	margin:25rpx 0rpx 35rpx 0rpx;
+	border-radius: 10rpx;
+}
+.leftlinevie{
+	width:8rpx;
+	height:35rpx;
+	background-color:  #1AB6F1;
+}
+.lefttxttile{
+	margin-left:15rpx;
+}
+.drama_image{
+	background-color: #f5f5f5;
+	border-radius: 15rpx;
+}
+.drama_names{
+	font-size:30rpx;
+	margin:15rpx 0rpx;
+	text-align: center;
+}
+.jinrus{
+	width: 180rpx;
+	height: 60rpx;
+	background-color:#1AB6F1;
+	color: white;
+	font-size: 30rpx;
+	text-align: center;
+	line-height:60rpx;
+	border-radius: 100rpx;
+}
+
+
+/* 剧院 */
+.polymerization_view1{
+	width:690rpx;
+	padding:20rpx 15rpx 0rpx 15rpx;
+	margin:25rpx 0rpx 35rpx 0rpx;
+	border-radius: 10rpx;
+}
+.newimage{
+	width: 200rpx;
+	height: 200rpx;
+	border-radius: 15rpx;
+	background:#007AFF;
+	margin-right: 15rpx;
+}
+.dyncname{
+	font-size: 30rpx;
+	height:70rpx;
+	line-height: 35rpx;
+}

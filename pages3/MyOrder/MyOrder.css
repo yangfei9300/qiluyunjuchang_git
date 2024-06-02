@@ -1,0 +1,51 @@
+page{
+	background: rgba(247,246,250,0.39);
+}
+.orderviewitem{
+	margin-left: 25rpx;
+	width: 700rpx;
+	background: rgba(255,255,255,0.39);
+	box-shadow: 0rpx 0rpx 20rpx rgba(223,223,223,1);
+	opacity: 1;
+	border-radius: 20rpx;
+	padding: 20rpx;
+}
+.goodimg{
+	width: 150rpx;
+	height: 150rpx;
+	background-color: aquamarine;
+	border-radius: 15rpx;
+	margin-right: 15rpx;
+}
+.goodname{
+	width: 500rpx;
+	height: 70rpx;
+	font-size: 28rpx;
+	font-family: PingFang SC;
+	font-weight: 400;
+	line-height: 35rpx;
+	color: #333333;
+	opacity: 1;
+}
+.quxiaodingdan{
+	width: 150rpx;
+	height: 54rpx;  
+	border: 1px solid #E81249;
+	opacity: 1;
+	border-radius: 27rpx;
+	text-align: center;
+	font-size: 30rpx;
+	color: #E81249;
+	line-height: 54rpx;
+}
+.quxiaodingdan1{
+	width: 150rpx;
+	height: 54rpx;
+	background: rgba(248,61,71,1);
+	opacity: 1;
+	border-radius: 27rpx;
+	text-align: center;
+	font-size: 30rpx;
+	color: #ffffff;
+	line-height: 54rpx;
+}

@@ -1,0 +1,44 @@
+page{
+	background-color: #FFDFC3;
+}
+.topview{
+	width: 750rpx;
+	height: 500rpx;
+	background: linear-gradient(0deg, #FF9663 0%, #9B0C00 100%);
+	border-radius: 12rpx;
+}
+.baominganniu{
+	width: 690rpx;
+	height: 75rpx;
+	background: linear-gradient(-90deg, #971100 0%, #D85B39 100%);
+	border-radius: 38rpx;
+	text-align: center;
+	line-height: 75rpx;
+	color: #FFEDCD;
+}
+.biaodanview{
+	width: 690rpx;
+	background: #FFFFFF;
+	border-radius: 12rpx;
+	margin:30rpx;
+	padding:70rpx 42rpx  30rpx 42rpx;
+}
+.xingming{
+	width: 110rpx;
+	font-size: 25rpx;
+	line-height: 25rpx;
+}
+.shangcahuntupia{
+	width: 608rpx;
+	font-size: 25rpx;
+	font-family: Microsoft YaHei;
+	font-weight: 400;
+	color: #B5B5B5;
+	line-height: 43rpx;
+}
+.shangchauntupian{
+	width: 173rpx;
+	height: 98rpx;
+	background: #E8E8E8;
+	border-radius: 2rpx;
+}

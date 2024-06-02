@@ -1,0 +1,149 @@
+
+.topallview{
+	background-color: #ffffff;
+	position: fixed;
+	border-bottom: 1rpx solid #dddddd;
+}
+.capsulevioew{
+	background: #F7F7F7;
+	position: absolute;
+	border-radius: 100rpx;
+}
+.searchtxt{
+	font-size:30rpx;
+	color: white;
+	color: #999999;
+}
+.icon123{
+	width: 40rpx;
+	height: 40rpx;
+	border-radius: 50%;
+	margin-right:8rpx;
+}
+.wodezhuanzhu{
+	line-height: 40rpx;
+	height: 40rpx;
+	font-size: 34rpx;
+	color: #000000;
+}
+.jige{
+	height: 23rpx;
+	font-size: 23rpx;
+	font-family: Microsoft YaHei;
+	font-weight: 400;
+	
+}
+.guanzhu_img_viw{
+	width: 115rpx;
+	height: 115rpx;
+	border: 2rpx solid #F10E49;
+	border-radius: 50%;
+}
+.liveimg{
+	width: 103rpx;
+	border-radius: 50%;
+	height: 103rpx;
+	background-color: #FFD7B4;
+}
+.zhibozhongview{
+	width: 89rpx;
+	height: 30rpx;
+	background: #F10E49;
+	border: 2rpx solid #F7F7F7;
+	border-radius: 14rpx;
+	font-size: 20rpx;
+	color: white;
+	position: relative;
+	top:-15rpx;
+	/* left: 13rpx; */
+}
+.shuxians{
+	width:3rpx;
+	height: 30rpx;
+	background-color: #cdcdcd;
+	margin:0rpx 20rpx;
+	border-radius: 100rpx;
+}
+.huifangzhibo{
+	height: 34rpx;
+	font-size: 34rpx;
+	font-family: Microsoft YaHei;
+	line-height: 34rpx;
+	color: #999999;  
+}   
+.jumingss{
+	width:103rpx;
+	height: 36rpx;
+	font-size: 25rpx;
+	font-family: Microsoft YaHei;
+	font-weight: 400;
+	color: #333333;
+	line-height: 36rpx;
+	text-align: center;
+}
+.zhiboimgview{
+	width: 341rpx;
+	height:189rpx;
+	border-radius: 15rpx;
+	background-color: #999999;
+}
+.bofanview{
+	width:50rpx;
+	height: 50rpx;
+	border-radius: 50%;
+	padding-left: 8rpx;
+	left: 144rpx;
+	top:60rpx;
+	background-color: rgba(0, 0, 0, 0.4);
+	position: absolute;
+}
+.duoshaoren{
+	height: 30rpx;
+	line-height: 30rpx;
+	background: rgba(0, 0, 0, 0.5);
+	border-radius: 18rpx;
+	color: #ffffff;
+	font-size: 20rpx;
+	padding:0rpx 15rpx;
+	margin-left: 10rpx;
+	z-index: 100000;
+}
+.wenjigeren{
+	width: 341rpx;
+	height: 36rpx;
+	font-size: 22rpx;
+	font-family: Microsoft YaHei;
+	font-weight: 400;
+	color: #999999;
+	line-height: 36rpx;
+}
+.jumings{
+	width: 341rpx;
+	height: 36rpx;
+	font-size: 30rpx;
+	font-family: Microsoft YaHei;
+	font-weight: 400;
+	color: #333333;
+	line-height: 36rpx;
+}
+.zhiboicon{
+	width: 45rpx;
+	height: 36rpx;
+	z-index: 1000000;
+}
+.zhibodongtu{
+	width: 50rpx;
+	height: 36rpx;
+	background: #F10E49;
+	border-radius: 18rpx;
+	
+	position: absolute;
+	left: 10rpx;
+	bottom: 10rpx;
+}
+.borde1{
+	border-radius: 15rpx 0rpx 0rpx 15rpx ;
+}
+.borde2{
+	border-radius: 0rpx 15rpx 15rpx 0rpx ;
+}

@@ -1,0 +1,596 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		
+		// {
+		//     "path" : "pages/AD/AD",
+		//     "style" :                                                                                          
+		//     {
+		//         "enablePullDownRefresh": false,  
+		// 		"navigationStyle": "custom"
+		//     }   
+		// },  
+		{
+		    "path" : "pages/index_1/index_1",
+		    "style" :                                                                                    
+		    {  
+		        "navigationBarTitleText": "首页",
+		        "enablePullDownRefresh": false,
+				"navigationStyle":"custom"
+		    }
+		}
+		,{
+		    "path" : "pages/live_1/live_1",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "直播",
+		        "enablePullDownRefresh": false,
+				"navigationStyle":"custom"
+		    }
+		},
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "齐鲁云剧场",
+				"navigationStyle":"custom"
+			}
+		},{
+			"path": "pages/watch_play/watch_play",
+			"style": {
+				"navigationBarTitleText": "看剧",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/live/live",
+			"style": {
+				"navigationBarTitleText": "直播"
+			}
+		},{
+			"path": "pages/small_video/small_video",
+			"style": {
+				"navigationBarTitleText": "专题"
+				
+				
+			}
+		},{
+			"path": "pages/me/me",
+			"style": {
+				"navigationBarTitleText": "我的"
+			}
+		}
+        ,{
+            "path" : "pages/me_1/me_1",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "个人中心",
+                "enablePullDownRefresh": false,
+				"navigationStyle":"custom"
+            }
+            
+        }
+        ,{
+            "path" : "pages3/sign_up/sign_up",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "报名",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages3/sign_sucess/sign_sucess",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "报名成功",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages3/sign_vote/sign_vote",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "投票",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages3/ctivity_rule/ctivity_rule",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "活动规则",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages3/peopleInfo/peopleInfo",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "详情",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages3/recharge/recharge",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "金币充值",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages3/payorderlog/payorderlog",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "记录",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages3/mychat/mychat",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "我的购物车",
+                "enablePullDownRefresh": false,
+				"navigationBarBackgroundColor": "#EE2E43",
+				"navigationBarTextStyle": "white"
+            }
+            
+        }
+        ,{
+            "path" : "pages3/trueOrder/trueOrder",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "确认订单",
+                "enablePullDownRefresh": false,
+				"navigationBarBackgroundColor": "#EE2E43",
+				"navigationBarTextStyle": "white"
+            }
+            
+        }
+        ,{
+            "path" : "pages3/myAddressList/myAddressList",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "收获地址",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages3/addAddress/addAddress",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "编辑收获地址",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages3/MyOrder/MyOrder",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "我的订单",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages3/orderInfo/orderInfo",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "订单详情",
+                "enablePullDownRefresh": false,
+				"navigationBarBackgroundColor": "#EE2E43",
+				"navigationBarTextStyle": "white"
+            }
+            
+        }
+        
+        ,{
+            "path" : "pages3/webView/webView",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/dyLive/dyLive",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "抖音直播间",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+    ],
+	
+	"subpackages": [
+	    {
+	      "root": "pages1",
+	      "name": "pages1",
+	      "pages": [
+			  {
+			      "path" : "my_collection_1/my_collection_1",
+			      "style" :                                                                                    
+			      {
+			          "navigationBarTitleText": "我的收藏",
+			          "enablePullDownRefresh": false
+			      }
+			      
+			  },
+			  {
+			      "path" : "wodedingdan/wodedingdan",
+			      "style" :                                                                                    
+			      {
+			          "navigationBarTitleText": "我的订单",
+			          "enablePullDownRefresh": false
+			      }
+			      
+			  }
+			  ,{
+			      "path" : "about_us/about_us",
+			      "style" :                                                                                    
+			      {
+			          "navigationBarTitleText": "关于我们",
+			          "enablePullDownRefresh": false
+			      }
+			      
+			  },
+	        {
+	            "path" : "updateInfo/updateInfo",
+	            "style" :                                                                                    
+	            {
+	                "navigationBarTitleText": "编辑资料",
+	                "enablePullDownRefresh": false
+	            }
+	            
+	        }
+	        ,{
+	            "path" : "my_wallet/my_wallet",
+	            "style" :                                                                                    
+	            {
+	                "navigationBarTitleText": "我的钱包",
+	                "enablePullDownRefresh": false
+	            }
+	            
+	        }
+	        ,{
+	            "path" : "my_points/my_points",
+	            "style" :                                                                                    
+	            {
+	                "navigationBarTitleText": "我的积分",
+	                "enablePullDownRefresh": false
+	            }
+	            
+	        }
+	        ,{
+	            "path" : "my_collection/my_collection",
+	            "style" :                                                                                    
+	            {
+	                "navigationBarTitleText": "我的收藏",
+	                "enablePullDownRefresh": false
+	            }
+	            
+	        }
+	        ,{
+	            "path" : "my_article/my_article",
+	            "style" :                                                                                    
+	            {
+	                "navigationBarTitleText": "文章",
+	                "enablePullDownRefresh": false
+	            }
+	            
+	        }
+	        ,{
+	            "path" : "live_info/live_info",
+	            "style" :                                                                                    
+	            {
+	                "navigationBarTitleText": "直播详情",
+	                "enablePullDownRefresh": false,
+	        		"navigationStyle":"custom"
+	            }
+	            
+	        }
+	        ,{
+	            "path" : "album_info/album_info",
+	            "style" :                                                                                    
+	            {
+	                "navigationBarTitleText": "专辑详情",
+	                "enablePullDownRefresh": false,
+	        		"navigationBarBackgroundColor":"#5C6BFC",
+	        		"navigationBarTextStyle":"white"
+	            }
+	            
+	        }
+	        ,{
+	            "path" : "sport_video/sport_video",
+	            "style" :                                                                                    
+	            {
+	                "navigationBarTitleText": "",
+	                "enablePullDownRefresh": false
+	            }
+	            
+	        }
+	        ,{
+	            "path" : "sport_video_1/sport_video_1",
+	            "style" :                                                                                    
+	            {
+	                "navigationBarTitleText": "",
+	                "enablePullDownRefresh": false
+	            }
+	        }
+	        ,{
+	            "path" : "buy_vip/buy_vip",
+	            "style" :                                                                                    
+	            {
+	                "navigationBarTitleText": "VIP会员权益",
+	                "enablePullDownRefresh": false
+	            }
+	        }
+	        ,{
+	            "path" : "theatre_dynamics_more/theatre_dynamics_more",
+	            "style" :                                                                                    
+	            {
+	                "navigationBarTitleText": "剧院动态",
+	                "enablePullDownRefresh": false
+	            }
+	            
+	        }
+	        ,{
+	            "path" : "drama_more/drama_more",
+	            "style" :                                                                                    
+	            {
+	                "navigationBarTitleText": "",
+	                "enablePullDownRefresh": false
+	            }
+	            
+	        }
+	        ,{
+	            "path" : "new_play_trailer/new_play_trailer",
+	            "style" :                                                                                    
+	            {
+	                "navigationBarTitleText": "新剧预告",
+	                "enablePullDownRefresh": false
+	            }
+	            
+	        }
+	        ,{
+	            "path" : "search/search",
+	            "style" :                                                                                    
+	            {
+	                "navigationBarTitleText": "搜索",
+	                "enablePullDownRefresh": false
+	            }
+	        },
+			{
+			    "path" : "buy_vip_1/buy_vip_1",
+			    "style" :                                                                                    
+			    {
+			        "navigationBarTitleText": "会员",
+			        "enablePullDownRefresh": false,
+					"navigationStyle":"custom"
+			    }
+			},
+			{
+			    "path" : "search_1/search_1",
+			    "style" :                                                                                    
+			    {
+			        "navigationBarTitleText": "搜索",
+			        "enablePullDownRefresh": false
+			    }
+			}
+			,{
+			    "path" : "live_info_1/live_info_1",
+			    "style" :                                                                                    
+			    {
+			        "navigationBarTitleText": "直播",
+			        "enablePullDownRefresh": false,
+			  		"navigationStyle":"custom"
+			    }
+			}
+	      ]
+	    }, {
+	      "root": "pages2",
+	      "name": "pages2",
+	      "pages": [
+			  {
+			      "path" : "live_search/live_search",
+			      "style" :                                                                                    
+			      {
+			          "navigationBarTitleText": "搜索",
+			          "enablePullDownRefresh": false
+			      }
+			      
+			  },
+			  {
+			      "path" : "myorder/myorder",
+			      "style" :                                                                                    
+			      {
+			          "navigationBarTitleText": "我的订单",
+			          "enablePullDownRefresh": false
+			      }
+			  },
+			  {
+			      "path" : "consumer/consumer",
+			      "style" :                                                                                    
+			      {
+			          "navigationBarTitleText": "消费券",
+			          "enablePullDownRefresh": false
+			      }
+			  },
+			  {
+			      "path" : "special/special",
+			      "style" :                                                                                    
+			      {
+			          "navigationBarTitleText": "专题",
+			          "enablePullDownRefresh": false
+			      }
+			      
+			  },
+			  {
+			      "path" : "agreement/agreement",
+			      "style" :                                                                                    
+			      {
+			          "navigationBarTitleText": "协议",
+			          "enablePullDownRefresh": false
+			      }
+			      
+			  }
+			  ,{
+			      "path" : "dynamicList/dynamicList",
+			      "style" :                                                                                    
+			      {
+			          "navigationBarTitleText": "新闻动态",
+			          "enablePullDownRefresh": false
+			      }
+			      
+			  }
+	        ,{
+	            "path" : "login/login",
+	            "style" :                                                                                    
+	            {
+	                "navigationBarTitleText": "登录",
+	                "enablePullDownRefresh": false
+	            }
+	            
+	        }
+	        ,{
+	            "path" : "register/register",
+	            "style" :                                                                                    
+	            {
+	                "navigationBarTitleText": "注册",
+	                "enablePullDownRefresh": false
+	            }
+	            
+	        }
+	        ,{
+	            "path" : "findpassword/findpassword",
+	            "style" :                                                                                    
+	            {
+	                "navigationBarTitleText": "找回密码",
+	                "enablePullDownRefresh": false
+	            }
+	            
+	        }
+	        ,{
+	            "path" : "updatePwd/updatePwd",
+	            "style" :                                                                                    
+	            {
+	                "navigationBarTitleText": "修改密码",
+	                "enablePullDownRefresh": false
+	            }
+	            
+	        }
+	        ,{
+	            "path" : "setting/setting",
+	            "style" :                                                                                    
+	            {
+	                "navigationBarTitleText": "设置",
+	                "enablePullDownRefresh": false
+	            }
+	            
+	        }
+	        ,{
+	            "path" : "updatephone/updatephone",
+	            "style" :                                                                                    
+	            {
+	                "navigationBarTitleText": "修改手机号",
+	                "enablePullDownRefresh": false
+	            }
+	        },
+			{
+			    "path" : "special_info/special_info",
+			    "style" :                                                                                    
+			    {
+			        "navigationBarTitleText": "专题详情",
+			        "enablePullDownRefresh": false,
+					"navigationBarTextStyle": "white",
+					"navigationBarBackgroundColor":"#E46555"
+			    }
+			}
+	      ]
+	    }
+	  ],
+	
+	"preloadRule":{
+		"pages1/live_info_1/live_info_1":{
+			"network":"all",
+			"packages":["pages1"]
+		}   
+	},
+	
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "齐鲁云剧场",
+		"navigationBarBackgroundColor": "#ffffff",
+		"backgroundColor": "#ffffff"
+	}
+	,
+	"tabBar": {
+		"color": "#707070",  
+		"selectedColor": "#FFA247",
+		"backgroundColor": "#FFFFFF",
+		"borderStyle": "black",
+		"list": 
+		[
+			{   
+				"pagePath": "pages/index_1/index_1",
+				"text": "首页", 
+				"iconPath":"static/shouye/shoyeno.png",
+				"selectedIconPath":"static/shouye/shouy_19.png"
+			},   
+			 
+			 // #ifdef  MP-WEIXIN
+			 {
+			 	"pagePath": "pages/live_1/live_1",
+			 	"text": "直播",
+			 	"iconPath":"static/shouy_22.png",
+			 	"selectedIconPath":"static/shouye/shouye_05.png"
+			 },    
+			 // #endif
+			 // #ifdef  MP-TOUTIAO
+			 {
+			 	"pagePath": "pages/dyLive/dyLive",
+			 	"text": "直播",
+			 	"iconPath":"static/shouy_22.png",
+			 	"selectedIconPath":"static/shouye/shouye_05.png"
+			 },    
+			 // #endif
+			 
+			
+			{
+				"pagePath": "pages/watch_play/watch_play",
+				"text": "看剧",
+				"iconPath":"static/wode_43.png",
+				"selectedIconPath":"static/shouye/shouye_07.png"
+			},   
+			{
+				"pagePath": "pages/small_video/small_video",
+				"text": "专题",
+				"iconPath":"static/shouy_28.png",
+				"selectedIconPath":"static/shouye/shouye_09.png"
+			},   
+			{
+				"pagePath": "pages/me_1/me_1",
+				"text": "我的",
+				"iconPath":"static/shouye/shouy_31.png",
+				"selectedIconPath":"static/shouye/shouye_11.png"
+			}
+		]  
+	},
+	
+	"plugins": {
+	  "bk-video": {
+	    "version": "1.0.1", //开发版 "version":"dev-33c0212268b9afbddfcbe09d35c1a476"
+	    "provider": "wx764c96fd8605b19f"
+	  }
+	}
+}

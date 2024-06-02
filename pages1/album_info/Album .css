@@ -1,0 +1,19 @@
+page{
+	background-color:  #483DE1;
+}
+.topimg{
+	width:700rpx;
+	height: 400rpx;
+	background-color: #007AFF;
+	border-radius: 15rpx;
+}
+.album_content{
+	font-size: 30rpx;
+	color: rgba(255,255,255,0.7);
+	margin-top:25rpx;
+}
+.album_img{
+	width:340rpx;
+	height: 400rpx;
+	background-color: #007AFF;
+}

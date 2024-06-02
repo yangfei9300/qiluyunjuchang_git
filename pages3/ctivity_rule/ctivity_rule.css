@@ -1,0 +1,13 @@
+.baominganniu{
+	width: 690rpx;
+	height: 75rpx;
+	background: linear-gradient(-90deg, #971100 0%, #D85B39 100%);
+	border-radius: 38rpx;
+	text-align: center;
+	line-height: 75rpx;
+	color: #FFEDCD;
+	z-index: 1000;
+	position: relative;
+	bottom: 100rpx;
+}   
+

@@ -1,0 +1,26 @@
+.phonetxt{
+	height: 43rpx;
+	line-height: 43rpx;
+	font-size: 43rpx;
+	font-family: Microsoft YaHei;
+	font-weight: bold;
+	color: #F7463A;
+	margin-left:24rpx;
+}
+.carjianjie{
+	width: 691rpx;
+	height: 379rpx;
+	background: #F4F4F4;
+	border-radius: 12rpx;
+	margin-top:30rpx;
+	padding:20rpx 0rpx;
+	background-image: url(https://frd-yhc.oss-cn-hangzhou.aliyuncs.com/2022/9/13/1d0423f6faf941c58ab25ffb4f6441de.png);
+	background-size: 100% 100%;
+}
+.jieshis{
+	width:616rpx;
+	font-size: 25rpx;
+	font-family: Microsoft YaHei;
+	font-weight: 400;
+	color: #666666;
+}

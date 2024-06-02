@@ -1,0 +1,35 @@
+page{
+	background-color: #FFDFC3;
+}
+.topview{
+	width: 750rpx;
+	height: 500rpx;
+	background: linear-gradient(0deg, #FF9663 0%, #9B0C00 100%);
+	border-radius: 12rpx;
+}
+.baominganniu{
+	width: 690rpx;
+	height: 75rpx;
+	background: linear-gradient(-90deg, #971100 0%, #D85B39 100%);
+	border-radius: 38rpx;
+	text-align: center;
+	line-height: 75rpx;
+	color: #FFEDCD;
+}
+.baominginfovie{ 
+	width: 690rpx;
+	background: #FFFFFF;
+	border-radius: 12rpx;
+	margin-top: 34rpx;
+	margin-bottom: 55rpx;
+	margin-left: 30rpx;
+}
+.boamingxixni{
+	text-align: center;line-height: 60rpx;margin-top: 35rpx
+}
+.zhanshitupian{
+	width: 570rpx;
+	height: 335rpx;
+	background: #EBEBEB;
+	border-radius: 2rpx;
+}

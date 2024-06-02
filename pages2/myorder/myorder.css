@@ -1,0 +1,53 @@
+page{
+	background: #f5f5f5;
+}
+
+.shoucangvuew{
+	width: 750rpx;
+	height: 231rpx;
+	background: #FFFFFF;
+	border-radius: 18rpx;
+	padding:20rpx 20rpx;
+}
+
+.goodimg{
+	width: 133rpx;
+	height: 177rpx;
+	background-color: #007AFF;
+	border-radius: 10rpx;
+	margin-right: 21rpx;
+}
+.goodname{
+	width: 385rpx;
+	height: 68rpx;
+	font-size: 29rpx;
+	font-family: Microsoft YaHei;
+	font-weight: 400;
+	color: #000000;
+	line-height: 34rpx;
+}
+.shoucangriqi{
+	height: 25rpx;
+	font-size: 25rpx;
+	font-family: Microsoft YaHei;
+	font-weight: 400;
+	color: #999999;
+}
+.quxiaoshoucang{
+	width:150rpx;
+	height: 40rpx;
+	border: 1rpx solid #999999;
+	border-radius: 24rpx;
+	padding:0rpx 10rpx;
+	line-height: 40rpx;
+	text-align: center;
+	font-size: 25rpx;
+	color: #999999;
+}
+.daoizhifutxt{
+	height: 30rpx;
+	font-size: 30rpx;
+	font-family: Microsoft YaHei;
+	font-weight: 400;
+	color: #999999;
+}

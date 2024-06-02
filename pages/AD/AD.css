@@ -1,0 +1,16 @@
+.daojishiview{
+	position: fixed;
+	bottom: 50rpx;
+	right: 50rpx;
+	min-width: 100rpx;
+	padding:0rpx 15rpx;
+	height: 50rpx;
+	line-height: 50rpx;
+	background-color: rgba(0, 0, 0, 0.5);
+	border-radius: 100rpx;
+	color: white;
+	font-size: 25rpx;
+}
+.taiguotxt{
+	text-align: center;
+}

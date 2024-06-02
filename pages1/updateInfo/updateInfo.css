@@ -1,0 +1,35 @@
+.hradimg{
+	width:80rpx;
+	height:80rpx;
+	background-color: #f5f5f5;
+	border-radius: 50%;
+}
+.viewvpcolor{
+	color: #959595;
+}
+.starttxt{
+	color: #FF8E2D;
+}
+.getbtn{
+	width:120rpx;
+	height: 40rpx;
+	background-color: #FF8E2D;
+	text-align: center;
+	line-height: 40rpx;
+	font-size: 25rpx;
+	color: white;
+	border-radius: 50rpx;
+}
+.textuserinfo{
+	height: 300rpx;
+}
+.tijaobtns{
+	width:650rpx;
+	height: 80rpx;
+	background-color: #FF8E2D;
+	text-align: center;
+	line-height: 80rpx;
+	color: white;
+	border-radius: 10rpx;
+	margin:40rpx 0rpx;
+}

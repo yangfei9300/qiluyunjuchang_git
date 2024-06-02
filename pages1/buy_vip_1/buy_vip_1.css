@@ -1,0 +1,151 @@
+.topview{
+	width: 750rpx;
+	height: 667rpx;
+	background-image: url(https://6665-fei-bc14b8-1257417988.tcb.qcloud.la/wode_0_01.png?sign=ef02679b5695a427e8c2314d6559c472&t=1650862760);
+	background-size: 100% 100%;
+}
+
+
+
+
+.headimgd{
+	width: 125rpx;
+	height: 125rpx;
+	border: 6rpx solid #FFFFFF;
+	background: linear-gradient(135deg, #FF7ADE 0%, #61A0FF 100%);
+	border-radius: 50%;
+	margin-right:25rpx;
+}
+.updateinfo{
+	/* background-color: #ffffff;
+	border-radius: 100rpx;
+	color: #c0c0c0;
+	padding:5rpx 10rpx 5rpx 20rpx; */
+	
+	height: 54rpx;
+	font-size: 25rpx;
+	background: #FFFFFF;
+	color:#999999;
+	padding:5rpx 10rpx 5rpx 20rpx; 
+	border-radius: 27rpx;
+}
+.loadinfo{
+	border-radius: 100rpx;
+	padding:5rpx 10rpx 5rpx 20rpx;
+}
+.tijiaosn{
+	width: 208rpx;
+	height: 80rpx;
+	background: #FF8E2D;
+	opacity: 1;
+	color: white;
+	text-align: center;
+	line-height: 80rpx;
+	border-radius: 15rpx;
+}
+.vipicoc{
+	min-width: 68rpx;
+	height: 28rpx;
+	background: linear-gradient(90deg, #E9E9E9 0%, #C6C6C6 99%);
+	border-radius: 24rpx;
+}
+.vipf{
+	font-size:20rpx;
+	color:#000000;
+}
+.vipf1{
+	color: #A3691E;
+	
+}
+.shuziInfo{
+	width: 690rpx;
+	height: 170rpx;
+	background: #FFFFFF;
+	border-radius: 18rpx;
+	margin-left:30rpx;
+}
+.jinetxt{
+	height: 32rpx;
+	font-size: 42rpx;
+	font-family: Microsoft YaHei;
+	font-weight: bold;
+	color: #FE303E;
+}
+.vipbigview{
+	width: 690rpx;
+	height: 135rpx;
+	background: linear-gradient(105deg, #FED68F 0%, #FEE2AA 34%, #FFCD91 100%);
+	border-radius: 18rpx;
+	padding:0rpx 40rpx;
+	margin-left:30rpx;
+}
+.daoqitime{
+	height: 22rpx;
+	font-size: 22rpx;
+	font-family: Microsoft YaHei;
+	font-weight: 400;
+	color: #888888;
+	margin-left:15rpx;
+}
+.viptxt{
+	height: 40rpx;
+	line-height: 40rpx;
+	font-size: 36rpx;
+	font-family: Microsoft YaHei;
+	font-weight: bold;
+	color: #4B292B;
+}
+.viptaoanview{
+	width: 690rpx;
+	height: 205rpx;
+	border-radius: 18rpx;
+	margin-left:30rpx;
+	background-image:url(https://6665-fei-bc14b8-1257417988.tcb.qcloud.la/ktVIP_07.png?sign=053cb148e0b5efbcfd3bb587ae6a676f&t=1651030350);
+	background-size:100% 100%;
+}
+.viphuiyuan1{
+	height: 40rpx;
+	line-height:40rpx;
+	font-size: 35rpx;
+	font-family: Microsoft YaHei;
+	font-weight: 400;
+	color: #6D481C;
+}
+.liushiyuan{
+	height: 59rpx;
+	font-size: 60rpx;
+	font-family: Microsoft YaHei;
+	font-weight: bold;
+	color: #A56111;
+}
+.liishifu{
+	width: 690rpx;
+	height: 85rpx;
+	background: linear-gradient(-90deg, #FFCE64 0%, #FFAB3E 100%);
+	border-radius: 43rpx;
+	margin-left:30rpx;
+	margin-top:50rpx;
+}
+.lijishids{
+	font-size: 34rpx;
+	font-family: Microsoft YaHei;
+	font-weight: bold;
+	color: #654848;
+}
+.shiyongquansa{
+	height:30rpx;
+	line-height: 30rpx;
+	font-size: 25rpx;
+	font-family: Microsoft YaHei;
+	font-weight: 400;
+	color: #333333;
+}
+.sanhangquan{
+	height: 37rpx;
+	background: #ED4F11;
+	border-radius: 9rpx;
+	color:white;
+	text-align:center;
+	font-size:25rpx;
+	padding:3rpx 10rpx;
+}

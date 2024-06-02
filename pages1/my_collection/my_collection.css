@@ -1,0 +1,31 @@
+.drama_img{
+	width:200rpx;
+	height: 150rpx;
+	background-color: #F5F5F5;
+}
+.cancel_btn{
+	width:150rpx;
+	height: 50rpx;
+	background-color: #FF8E2D;
+	font-size: 25rpx;
+	text-align: center;
+	line-height: 50rpx;
+	color: white;
+	border-radius: 100rpx;
+}
+
+
+.headimgd{
+	width:100rpx;
+	height: 100rpx;
+	border-radius: 500rpx;
+	margin-right:20rpx;
+	background-color: #007AFF;
+}
+.yuemoneybigview{
+	min-width: 300rpx;
+	height:80rpx;
+	padding:0rpx 20rpx;
+	border-radius: 10rpx;
+	background-color: #F5F5F5;
+}

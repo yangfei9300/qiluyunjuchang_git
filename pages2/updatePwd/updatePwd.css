@@ -1,0 +1,13 @@
+.tijaobtns{
+	width:650rpx;
+	height: 80rpx;
+	background-color: #FF8E2D;
+	text-align: center;
+	line-height: 80rpx;
+	color: white;
+	border-radius: 10rpx;
+	margin:40rpx 0rpx;
+}
+view{
+	font-size: 30rpx;
+}

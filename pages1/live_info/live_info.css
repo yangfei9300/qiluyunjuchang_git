@@ -1,0 +1,183 @@
+
+page{
+	
+	background-color: #5C6BFC;
+}
+.topallview{
+	background-color: #5C6BFC;
+	position: fixed;
+}
+.capsulevioew{
+	position: absolute;
+	border-radius: 100rpx;
+	padding:20rpx 0rpx;
+}
+.searchtxt{
+	font-size:30rpx;
+	color: white;
+}
+.tipstxt{
+	background-color:#1AB6F1;
+	width:750rpx;
+	position: fixed;
+	font-size:25rpx;
+	padding:10rpx 20rpx;
+	color: white;
+}
+.dramaIcon{
+	width:50rpx;
+	height: 50rpx;
+	border-radius: 50%;
+	background-color: #007AFF;
+	margin-right: 15rpx;
+}
+.infoview{
+	background-color: rgba(0,0,0,0.5);
+	border-radius: 100rpx;
+}
+.popularity{
+	font-size: 20rpx;
+	color: white;
+} 
+.keymue{
+	width:50rpx;
+	height: 50rpx;
+}
+.inputbigvie{
+	width:300rpx;
+	height: 60rpx;
+	background-color:rgba(0,0,0,0.5) ;
+	border-radius: 100rpx;
+}
+.inputbigvie1{
+	width:300rpx;
+	height: 60rpx;
+	background-color:rgba(255,255,255,0.8) ;
+	border-radius: 100rpx;
+}
+.senda{
+	width:110rpx;
+	text-align: center;
+	line-height: 60rpx;
+	border-radius: 10rpx;
+	height: 60rpx;
+	font-size: 25rpx;
+	color: white;
+	margin-left:20rpx;
+	background-color:rgba(0,0,0,0.5) ;
+}
+.rightimg{
+	width: 70rpx;
+	height: 70rpx;
+	background-color:rgba(0,0,0,0.5) ;
+	border-radius: 50%;
+	padding:20rpx;
+}
+/* 聊天内容 */
+.chatview{
+	width:500rpx;
+	height: 700rpx;
+	background-color:rgba(0,0,0,0.5) ;
+}
+.headimgs{
+	width:40rpx;
+	height:40rpx;
+	background-color: #007AFF;
+	border-radius: 50%;
+	margin-right:10rpx;
+	position: relative;
+	top: 10rpx;
+}
+.chatitem{
+	white-space:normal;
+	word-break:break-all;
+	background-color: rgba(0,0,0,0.5);
+	border-radius: 10rpx;
+	color: white;
+	padding:7rpx;
+	margin-bottom:20rpx;
+}
+.sendbtn{
+	width:100rpx;
+	height: 60rpx;
+	text-align: center;
+	line-height: 60rpx;
+	color: white;
+	background-color: #007AFF;
+	font-size: 30;
+	border-radius: 10rpx;
+}
+
+/* 动画转半圈  */
+.addimgbtn{
+	 animation:turn 1s linear infinite alternate; 
+	 
+}
+.animationsa{
+	animation-play-state: paused;
+	animation-fill-mode: forwards;
+}
+.chatimg{
+	width:200rpx;
+	height:200rpx;background-color: red;
+	margin-top:10rpx;
+	margin-left:15rpx;
+	margin-right:15rpx;
+}
+.mp3bigvie{
+	width:300rpx;
+	height: 50rpx;
+	background-color: rgba(0,0,0,0.7);
+	border-radius: 100rpx;
+	margin:10rpx 5rpx;
+}
+.liveimg{
+	width:30rpx;
+	height:30rpx;
+	margin-right: 15rpx;
+}
+@keyframes turn{
+      0%{-webkit-transform:rotate(0deg);}
+      25%{-webkit-transform:rotate(-45deg);}
+    /*  50%{-webkit-transform:rotate(180deg);}
+      75%{-webkit-transform:rotate(270deg);}
+      100%{-webkit-transform:rotate(360deg);} */
+    }
+	
+	/* 直播介绍 */
+	.livebigvi{
+		width: 750rpx;
+		height: 450rpx;
+		background-color: rgba(0,0,0,0.7);
+		padding:20rpx;
+		position: fixed;
+		bottom: 0rpx;
+	}
+	/* 直播刷礼物 */
+	/* .liveliwubigview{
+		width: 750rpx;
+		background-color: white;
+		position: fixed;
+		bottom: 0rpx;
+	}
+	.giftimg1{
+		width:100rpx;
+		height: 100rpx;
+		background-color: #007AFF;
+		margin-bottom:15rpx;
+	}
+	.giftviewbig{
+		width:177rpx;
+		
+		padding:20rpx 30rpx 20rpx 30rpx;
+		text-align: center;
+	}
+	.givebtn{
+		width:120rpx;
+		height: 50rpx;
+		background-color: #FF8E2D;
+		color: white;
+		text-align: center;
+		line-height: 50rpx;
+		border-radius: 100rpx;
+	} */

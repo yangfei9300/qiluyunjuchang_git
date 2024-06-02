@@ -1,0 +1,72 @@
+.goodicon{
+	width: 150rpx;
+	height: 150rpx;
+	border-radius: 15rpx;
+	background-color: antiquewhite;
+	margin-right: 15rpx;
+}
+.goodlistview{
+	width: 750rpx;
+	position: fixed;
+	bottom: 0rpx;
+	border-top-left-radius: 25rpx;
+	border-top-right-radius: 25rpx;
+	background-color: #f5f5f5;
+	height: 1050rpx;
+}
+.guanbi{
+	color: blue;
+	font-size: 30rpx;
+	margin-right: 20rpx;
+}
+.dibumenu{
+	width: 750rpx;
+	height: 100rpx;
+	background-color: white;
+}
+.swimg{
+	width: 750rpx;
+	height: 400rpx;
+	background-color: aquamarine;
+	border-top-left-radius: 25rpx;
+	border-top-right-radius: 25rpx;
+}
+.hududs{
+	border-top-left-radius: 25rpx;
+	border-top-right-radius: 25rpx;
+}
+.mon_c1{
+	color: #DE3A65;
+}
+.shopiocn{
+	width: 35rpx;
+	height: 35rpx;
+	background-color: #DE3A65;
+}
+.addchat{
+	width: 230rpx;
+	height: 70rpx;
+	background-color: #FFE2E8;
+	color: #DE3A65;
+	font-weight: bold;
+	font-size: 27rpx;
+	text-align: center;
+	line-height: 70rpx;
+	border-top-left-radius: 15rpx;
+	border-bottom-left-radius: 15rpx;
+}
+.addMy{
+	width: 230rpx;
+	height: 70rpx;
+	background-color: #DE3A65;
+	color: #ffffff;
+	font-weight: bold;
+	font-size: 27rpx;
+	text-align: center;
+	line-height: 70rpx;
+	
+	
+	border-top-right-radius: 15rpx;
+	border-bottom-right-radius: 15rpx;
+	
+}

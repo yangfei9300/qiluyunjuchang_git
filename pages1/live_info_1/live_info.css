@@ -1,0 +1,239 @@
+page{
+	background-color: #FF8E2D;
+}
+.asasas{
+	
+   background-size: 100% 100%;
+   -webkit-filter: blur(5px);
+        filter: blur(15px);
+        transform: scale(2.2);
+}
+.topallview{
+	/* background-color: #5C6BFC; */
+	position: fixed;
+}
+.capsulevioew{
+	position: absolute;
+	border-radius: 100rpx;
+	padding:20rpx 0rpx;
+}
+.searchtxt{
+	font-size:30rpx;
+	color: white;
+}
+.tipstxt{
+	background-color:#FF8E2D;
+	width:750rpx;
+	position: fixed;
+	font-size:25rpx;
+	padding:10rpx 20rpx;
+	color: white;
+}
+.dramaIcon{
+	width:50rpx;
+	height: 50rpx;
+	border-radius: 50%;
+	background-color: #FF8E2D;
+	margin-right: 15rpx;
+}
+.infoview{
+	background-color: rgba(0,0,0,0.5);
+	border-radius: 100rpx;
+}
+.popularity{
+	font-size: 20rpx;
+	color: white;
+} 
+.naozhogicon{
+	width: 24rpx;
+	height: 24rpx;
+	margin:8rpx 0rpx;
+	background: #FFFFFF;
+	border-radius: 50%;
+}
+.zhibotixingview{
+	width: 163rpx;
+	background: rgba(0, 0, 0, 0.3);
+	border-radius: 100rpx;
+	color: white;
+	font-size: 25rpx;
+	padding:5rpx 15rpx; 
+	z-index: 100000;
+}
+.gengduojieshao{
+	width: 171rpx;
+	background: rgba(0, 0, 0, 0.3);
+	border-radius: 19px;
+	color: white;
+	font-size: 25rpx;
+}
+.liaotianitem1{
+	max-width: 500rpx;
+	color:#FF9B59;
+	font-size:25rpx;
+}
+.guanliyuans{
+	width:100rpx;
+	height:80rpx;
+	border-radius: 50%;
+	background-color: red;
+	padding: 10rpx 10rpx;
+	margin-right:10rpx;
+}
+.liwuview{
+	background-color: #B3827E;border-radius: 100rpx;padding:5rpx 10rpx;
+}
+/* 聊天内容 */
+.chatview{
+	width:500rpx;
+	height: 700rpx;
+	background-color:rgba(0,0,0,0.5) ;
+}
+.headimgs{
+	width:40rpx;
+	height:40rpx;
+	background-color:#FF8E2D;
+	border-radius: 50%;
+	margin-right:10rpx;
+	position: relative;
+	top: 10rpx;
+}
+.chatitem{
+	white-space:normal;
+	word-break:break-all;
+	background-color: rgba(0,0,0,0.5);
+	border-radius: 10rpx;
+	color: white;
+	padding:7rpx;
+	margin-bottom:20rpx;
+}
+.sendbtn{
+	width:100rpx;
+	height: 60rpx;
+	text-align: center;
+	line-height: 60rpx;
+	color: white;
+	background-color: #FF8E2D;
+	font-size: 30;
+	border-radius: 10rpx;
+}
+.shurukuangview{
+	width: 606rpx;
+	height: 60rpx;
+	background: rgba(0,0,0,0.5);
+	border-radius: 30rpx;
+	padding:0rpx 15rpx;
+}
+.shuodianshenm{
+	height:38rpx;
+	font-size: 24rpx;
+	font-family: Microsoft YaHei;
+	font-weight: 400;
+	color: #FFFFFF;
+	line-height: 38rpx;
+}
+.liwuclick{
+	width: 61rpx;
+	height: 61rpx;
+	background: rgba(11, 13, 13, 0.5);
+	border-radius: 50%;
+}
+/* 动画转半圈  */
+.addimgbtn{
+	 animation:turn 1s linear infinite alternate; 
+	 
+}
+.animationsa{
+	animation-play-state: paused;
+	animation-fill-mode: forwards;
+}
+.chatimg{
+	width:50rpx;
+	height: 50rpx;
+	margin-right:15rpx;
+/* 	margin-top:10rpx;
+	margin-left:15rpx;
+	 */
+}
+.mp3bigvie{
+	width:300rpx;
+	height: 50rpx;
+	background-color: rgba(0,0,0,0.7);
+	border-radius: 100rpx;
+	margin:10rpx 5rpx;
+}
+.liveimg{
+	width:30rpx;
+	height:30rpx;
+	margin-right: 15rpx;
+}
+@keyframes turn{
+      0%{-webkit-transform:rotate(0deg);}
+      25%{-webkit-transform:rotate(-45deg);}
+    /*  50%{-webkit-transform:rotate(180deg);}
+      75%{-webkit-transform:rotate(270deg);}
+      100%{-webkit-transform:rotate(360deg);} */
+    }
+	
+	/* 直播介绍 */
+	.livebigvi{
+		width: 750rpx;
+		height: 450rpx;
+		background-color: rgba(0,0,0,0.7);
+		padding:20rpx;
+		position: fixed;
+		bottom: 0rpx;
+	}
+	
+	
+	.chushihuaquanpuing{
+		width: 50rpx;
+		height: 50rpx;
+		color: #FF8E2D;z-index: 1000000;position: absolute;bottom: 20rpx;right: 20rpx;
+	}
+	.henbgzhquan{
+		color: #FF8E2D;z-index: 1000000;position: absolute;bottom: 20rpx;left: 20rpx;
+		
+		height: 50rpx;
+			width: 50rpx;
+		 -webkit-transform: rotate(90deg);
+		
+	}
+	
+	/* 入场动画 */
+	.animate {
+	      margin-bottom: 10px;
+	      border-radius: 20px;
+	      background-color: rgba(0,0,0, .3);
+	      animation: moveIn 1.2s;
+	    }
+	@keyframes moveIn {
+	  0% {
+	    transform: translateX(calc(-100% - 12px));
+	  }
+	  100% {
+	    transform: translateX(0);
+	  }
+	}
+	.rucahngeiuview{
+		position: relative;top: -70rpx;color: white;font-size: 25rpx;text-align: center;
+		padding:5rpx 20rpx;
+	}
+	.tupians{
+		/* position: relative;top: -40rpx; */
+		margin-top: -40rpx;
+	}
+	
+	.shopmenu{
+		position: fixed;
+		right: 25rpx;
+		bottom: 250rpx;
+	}
+	
+	.shop_goodsicon{
+		width: 61rpx;
+		height: 61rpx;
+		background-color: #FF8E2D;
+		border-radius: 50%;
+		margin-top:35rpx;
+	}

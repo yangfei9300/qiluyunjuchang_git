@@ -1,0 +1,56 @@
+page{
+	background-color: #F5F5F5;
+}
+.itemview{
+	width: 750rpx;
+	height: 178rpx;
+	padding:0rpx 30rpx;
+	background-color: #ffffff;
+	margin-top:20rpx;
+}
+.leftbgimg{
+	width: 137rpx;
+	height: 102rpx;
+	border-radius: 30rpx;
+	background-image: url(https://6665-fei-bc14b8-1257417988.tcb.qcloud.la/youhuiquan_03.png?sign=2f1506f1cd8025bca005017724ed937c&t=1650959198);
+	background-size: 100% 100%;
+}
+.youihuqanname{
+	width: 276rpx;
+	height: 35rpx;
+	font-size: 30rpx;
+	line-height: 35rpx;
+	font-family: Microsoft YaHei;
+	font-weight: 400;
+	color: #000000;
+}
+.youxiaoqistime{
+	width: 210rpx;
+	height: 23rpx;
+	font-size: 23rpx;
+	font-family: Microsoft YaHei;
+	font-weight: 400;
+	color: #999999;
+}
+.lijizhisyong{
+	width: 145rpx;
+	height: 50rpx;
+	background: linear-gradient(87deg, #FF8F24 0%, #F03E1B 100%);
+	border-radius: 25rpx;
+	font-size: 24rpx;
+	font-family: Microsoft YaHei;
+	font-weight: bold;
+	color: #FFFFFF;
+	line-height: 50rpx;
+	text-align: center;
+}
+.jijifens{
+	height: 24rpx;
+	font-size: 24rpx;
+	font-family: Microsoft YaHei;
+	font-weight: 400;
+	color: #F03E1B;
+	
+	font-family: Microsoft YaHei;
+	font-weight: bold;
+}
