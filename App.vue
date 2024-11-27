@@ -4,6 +4,7 @@
 		onLaunch(res) {
 
 			// #ifdef  MP-WEIXIN
+			
 			wx.cloud.init({
 				traceUser: true,
 				env: "zhonhgshiyangfan-9f3ohqi3f038ada"
